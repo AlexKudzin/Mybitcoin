@@ -26,7 +26,7 @@ class raw_tx:
 #?? WHAT IS THIS?? output script of the pervious transaction?
 #                               Address	15WT9oQn1guhp5TMG9tzngdEYEmeDtn3HN
 #                               Hash 160	31726579c6ab17fe2f85e236309d4c0bcff28055
-#                               Addr to H160    Alice_hashed_pub_key = base58.b58encode_check(Bob_addr)[1:].hex() 
+#                               Addr to H160    Alice_hashed_pub_key = base58.b58encode_check(Alice_addr)[1:].hex() 
 # Hash 160 is a 20 bytes hash of the public key (ripemd160 hash of the sha256 hash of the public key) its equal to public address
 #       OP_DUP OP_HASH160       (len)           31726579c6ab17fe2f85e236309d4c0bcff28055        OP_EQUALVERIFY  OP_CHECKSIG        
 #       "76      a9             14              Alice_hashed_pub_key                            88              ac
